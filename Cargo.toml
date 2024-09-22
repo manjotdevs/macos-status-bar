@@ -1,0 +1,9 @@
+[package]
+name = "mac_status_bar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gdk = "0.18.0"
+gtk = { version = "0.9.1", package = "gtk4", features = ["v4_12"] }
+x11 = "2.21.0"
